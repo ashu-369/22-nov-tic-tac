@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;    
+}
+
+h1{
+    text-align: center;
+    color: green;
+    text-decoration: underline orange;
+}
+
+h2{
+    text-align: center;
+    color: red;
+    text-decoration: underline blue;
+}
+
+.container{
+    /* height:50vh; */
+    /* width: 35vw; */
+    /* border: 0.5vw solid black; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    background-color: white;
+    position: absolute;
+    top: 16.5vh;
+    left: 36.5vw;
+}
+
+.boxes{
+    height:11vh;
+    width: 9vw;
+    border: 3px solid black;
+    box-sizing: border-box;
+    background-image: url('whiteBackground.jpeg');
+    background-size: auto 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#GameOver{
+    height:6vh;
+    width: 40vw;
+    border: 0.5vw solid navy;
+    background-color: skyblue;
+    color: navy;
+    position: absolute;
+    top:90vh;
+    left: 30vw;
+    display: none;
+}
+
+#restart {
+    height: 2.5vh;
+    width: 15vw;
+    color: white;
+    background-color: blue;
+    display: none;
+    position: absolute;
+    left: 12.5vw;
+}
